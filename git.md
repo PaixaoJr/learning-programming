@@ -40,3 +40,12 @@ git log
 ```
 
 # Enviando commits para a nuvem (push)
+
+```bash
+# -u serve para criar branch na nuvem, caso não exista na nuvem
+git push -u origin nome-da-branch
+
+git push origin master
+git push origin feature/learning-javascript
+git push -u origin feature/learning-javascript
+```
